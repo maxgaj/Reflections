@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    when you making changes on a document and your code won't work anymore, it is useful to have a back-up of the old version so you can compare the changes and find the source of the bug.
+	It takes a long time to do that manually but the computer can help.
+	using the command
+		diff -u old_version new_version 
+	show the difference between the two documents
+
+	it's useful because it helps you focus only on the line that have been change.
+	you can then check if every change is correct and look for typos.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    when you make a lot of changes, you can easily go back to an older versions
+    if you didn't work on your project for a long time, you can come back and change the purpose of each change
+    if you working with a team, you can see what changes every member has made
+    its kind of a security to know that all the versions are saved.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    since when to commit is more a personal choice, it can lead to commit that are too big or too small
+    the developer sould be careful to commit everytime the commit makes sense
+    on they other hand, having version automatically savec could lead to some version that doesn't make sense
+    if your are trying a new feature and finaly decide not to keep it, you dont wan't it to be saved automatically
+    if you are writing code, you don't want it to be savec while you editing it
+    this will lead to version that are not working
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    sometimes, changes in different files are related, 
+    like if you change the name of a function, you want to change that name in every other files that use this function.
+    Or if you want to change the name of a character through all the chapter of your novel
+    If you want to revert that change, you don't want to look for the old version of each file
+    it's more interesting to save that change in a multiple file commit
+
+    On the other hand, when you repository is just a collection of unrelated files,
+    like a cloud you're using for storage
+    you don't want all your files to be saved when you make a change to only one of them
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log gives you history of all the commits, with date, author and a message describing the commit
+    it also gives you an unique ID for each commit
+    git log --stat gives you some statistics like the number of addition and deletion
+
+    when you find the id of a commit, you can run git diff to see the changes between two commit
+    git diff old_commit_id new_commit_id
+    it gives you the changes from all the files affected 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    if you want to try a new idea, you commit before making any changes.
+    If your new changes break your project, you can just checkout to the older version
+    you don't have to worry that your changes may not work as long as you can just go back to the previous working version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    it will be useful for every of many programming projects
