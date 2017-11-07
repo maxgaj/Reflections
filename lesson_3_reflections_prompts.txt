@@ -7,24 +7,34 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    For the same reasons you don't want git to automatically commit your changes
+    you may be working on your code and you don't want it to be updated as the new changes can be in conflict with your new features
+    when you pull manually, you can choose which branch you want to pull
+    you can choose not to pull dev branch for exemple
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Branches exist inside a repository. It allow you to explore different hierarchy of commits and can be merged
+    Clone creates a copy of a repository on your local machine. It can be from a github repository or from another repository on your local machine
+    Fork is a lot like clone but it creates a copy of a repository from github to your github repositories. It is helpful when you don't have permission to push to the original github repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    it gives you the opportunity to check the modifications you've made from the remote at any time
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    In order to collaborate whithout git or github, every collaborator would have to send their modifications to every other collaborator
+    Every collaborator would have to track all the changes themself
+    it would involves a discussion channel to debate and validate the changes
+    when a modification is accepted, someone would have to add the modification to the final version manually and send the corrected version to everyone.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Even if it's more complicated, I think it's better to always work in different branches until your code is ready to merge to master
+    it helps you to keep a clean version of master with only the modifications validated by the community
+    The only reason I can think of to worl directly on master is when your work alone a making small modifications on the general code 
