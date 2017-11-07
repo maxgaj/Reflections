@@ -18,6 +18,9 @@ efficient programmer in the long term?
     if you working with a team, you can see what changes every member has made
     its kind of a security to know that all the versions are saved.
 
+    Addition from LeaSak
+    	All your work is documented.
+
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
@@ -62,3 +65,19 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     it will be useful for every of many programming projects
+
+
+Commands:
+Addition from Denyos
+	q |    exit git log
+	git log  |    List the commits and show which files have changed
+	git log --stat  |    Show addition information about the commits
+	git diff id1 id2  |    Compare two commits
+	git clone  |    Create a local copy/clone from the repository
+	git config --global color.ui auto |    get colored diff output
+	git checkout | Shows a previous version of the file.
+
+
+References
+	https://github.com/Denyos/reflections/
+	https://github.com/LeaSak/Reflections/
