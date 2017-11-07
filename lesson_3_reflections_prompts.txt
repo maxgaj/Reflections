@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  
+  This can be useful if you are working on different computer, you can keep your work synced in all your working station
+  It is also a great tool if you are working with other people
+  Even if you are working alone on a single computer, it's good to have a back-up only if your computer breaks.
